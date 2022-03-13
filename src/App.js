@@ -1,9 +1,5 @@
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
-}
+import Rotas from "routes/routes";
 
-export default App;
+export default function App() {
+  return <Rotas />;
+}
